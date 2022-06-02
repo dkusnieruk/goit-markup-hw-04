@@ -104,6 +104,10 @@ header nav a {
   cursor: pointer;
   color: #ffffff;
 }
+.button2:hover{
+  border-radius:4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .top-index {
   background-color: #2f303a;
@@ -298,6 +302,11 @@ footer ul {
   justify-content: space-between;
 }
 
+.card-set li:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ 
+}
+
 a {
   text-decoration: none;
 }
@@ -323,7 +332,7 @@ a {
   height: 404px;
   background: #ffffff;
   border: 1px solid rgba(238, 238, 238, 1);
-  margin-bottom: 30px;
+  
 }
 
 .card-set img {
@@ -338,3 +347,14 @@ a {
 .topic {
   width: 696px;
 }
+
+.background{
+  background-image: url(../images/backgroundindex.jpg), linear-gradient(black, white);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.card-set li {
+margin-bottom:20px;
+}
+
