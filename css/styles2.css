@@ -396,6 +396,7 @@ margin-bottom:20px;
 .iconic3:hover{
   background:#2196f3;
   fill:white;
+  border-radius:50%;
 }
 
 .clients h2{
@@ -426,6 +427,7 @@ margin-bottom:20px;
 .iconic4:hover{
   border: 1px solid #2196f3;
   fill:#2196f3;
+ 
 }
 
 .socialy{
