@@ -386,17 +386,32 @@ margin-bottom:20px;
   margin-right:30px;
 }
 
-.iconic3{
-  padding-top:16px;
-  height:44px;
-  width:44px;
+.iconic3{  
+  height:20px;
+  width:20px;
   fill:#afb1b8;
 }
 
-.iconic3:hover{
-  background:#2196f3;
-  fill:white;
+.iconic-3-list{
+  padding:0px 30px;
+}
+
+.iconic-3-list-link{
+  display:flex;
+  width:44px;
+  height: 44px;
   border-radius:50%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconic-3-list-link:hover{
+  background-color: #2196f3;
+  fill:#fff;
+}
+
+.iconic3:hover{
+  fill:white;
 }
 
 .clients h2{
@@ -427,7 +442,7 @@ margin-bottom:20px;
 .iconic4:hover{
   border: 1px solid #2196f3;
   fill:#2196f3;
- 
+
 }
 
 .socialy{
