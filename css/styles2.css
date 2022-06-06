@@ -98,6 +98,12 @@ header nav a {
   cursor: pointer;
 }
 
+.mailto a:hover .iconic,
+.tel a:hover .iconic {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
 .button:hover,
 .button2:hover {
   background-color: #2196f3;
@@ -367,9 +373,6 @@ margin-bottom:20px;
   fill:#757575;
 }
 
-.iconic:hover{
-  fill:#2196f3;
-}
 
 .iconic2{
   width:70px;
@@ -392,9 +395,8 @@ margin-bottom:20px;
   fill:#afb1b8;
 }
 
-.iconic-3-list{
-  padding:0px 30px;
-}
+.iconic-3-list
+{padding:30px 30px;}
 
 .iconic-3-list-link{
   display:flex;
@@ -407,12 +409,11 @@ margin-bottom:20px;
 
 .iconic-3-list-link:hover{
   background-color: #2196f3;
+}
+.iconic-3-list-link:hover  .iconic3{
   fill:#fff;
 }
 
-.iconic3:hover{
-  fill:white;
-}
 
 .clients h2{
   font-weight:700;
