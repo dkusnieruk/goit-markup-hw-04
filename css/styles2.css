@@ -83,6 +83,7 @@ header nav a {
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+
 }
 
 .mailto a,
@@ -170,7 +171,9 @@ header nav a {
 .section {
   padding: 94px 0;
 }
-
+.occupation-index{
+  padding-bottom:94px;
+}
 .occupation-index ul {
   display: flex;
   flex-direction: row;
@@ -361,6 +364,7 @@ a {
   background-image: url(../images/backgroundindex.jpg), linear-gradient(black, white);
   background-size:cover;
   background-repeat:no-repeat;
+  margin: 0 auto;
 }
 
 .card-set li {
@@ -371,6 +375,7 @@ margin-bottom:20px;
   height:16px;
   width:14px;
   fill:#757575;
+  margin-right:5px;
 }
 
 
@@ -405,7 +410,11 @@ margin-bottom:20px;
   border-radius:50%;
   align-items: center;
   justify-content: space-around;
+  background-color: rgba(255,255,255,0.1)
+  
 }
+.iconic-listing li{
+  padding:20px 10px;}
 
 .iconic-3-list-link:hover{
   background-color: #2196f3;
